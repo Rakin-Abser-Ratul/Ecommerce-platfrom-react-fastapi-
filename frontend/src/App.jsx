@@ -11,7 +11,7 @@ import ProductDetail from './components/ProductDetail'
 import ProductList from './components/ProductList'
 import CartPage  from './components/CartPage'
 import UnavailablePurchase from './components/UnavailablePurchase'
-import Dashboard from './components/Dashboard'
+import Dashboard from './components/DashBoard'
 import EditProduct from './components/EditProduct'
 
 
