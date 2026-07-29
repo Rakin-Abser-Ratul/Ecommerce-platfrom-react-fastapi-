@@ -26,7 +26,7 @@ const ProductList = () => {
     try {
       setLoading(true);
       setError(null);
-      const res = await fetch("http://localhost:8000/api/products/");
+      const res = await fetch("https://ecommerce-app.fastapicloud.dev/api/products/");
       if (!res.ok) {
         throw new Error("Failed to load products");
       }

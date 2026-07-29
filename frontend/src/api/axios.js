@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000', // Your FastAPI server URL
+  baseURL: 'https://ecommerce-app.fastapicloud.dev', // Your FastAPI server URL
 })
 
 // Attach JWT bearer token to requests automatically

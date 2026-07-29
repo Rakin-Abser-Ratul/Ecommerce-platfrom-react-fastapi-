@@ -131,7 +131,7 @@ const ProductDetail = () => {
 
     try {
       const res = await fetch(
-        `http://localhost:8000/api/products/${productId}/reviews`,
+        `https://ecommerce-app.fastapicloud.dev/api/products/${productId}/reviews`,
         {
           method: "POST",
           headers: {

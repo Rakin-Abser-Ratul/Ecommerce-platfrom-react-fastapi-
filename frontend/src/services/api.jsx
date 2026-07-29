@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const API = axios.create({
-  baseURL: 'http://localhost:8000/api', // Matches FastAPI prefix
+  baseURL: 'https://ecommerce-app.fastapicloud.dev/api/', // Matches FastAPI prefix
 });
 
 // Request Interceptor: Attach JWT Bearer Token
