@@ -73,7 +73,7 @@ const ProductDetail = () => {
     await Promise.all(
       missingUserIds.map(async (userId) => {
         try {
-          const res = await fetch(`http://localhost:8000/api/users/${userId}`);
+          const res = await fetch(`https://ecommerce-app.fastapicloud.dev/api/users/${userId}`);
           if (res.ok) {
             const userData = await res.json();
             fetchedNames[userId] = userData.username || userData.name;
