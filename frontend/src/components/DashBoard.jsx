@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { useAuth } from "../context/AuthContext";
 import API from "../services/api";
 import CartPage from "./CartPage";
-import "./Dashboard.css";
+import "./DashBoard.css";
 
 const Dashboard = () => {
   const { user } = useAuth();
