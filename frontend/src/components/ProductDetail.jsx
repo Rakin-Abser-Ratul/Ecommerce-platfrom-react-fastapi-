@@ -39,7 +39,7 @@ const ProductDetail = () => {
   const fetchProduct = async () => {
     try {
       setLoading(true);
-      const res = await fetch(`http://localhost:8000/api/products/${productId}`);
+      const res = await fetch(`https://ecommerce-app.fastapicloud.dev/api/products/${productId}`);
       if (!res.ok) {
         if (res.status === 404) throw new Error("Product not found");
         throw new Error("Failed to load product details");
